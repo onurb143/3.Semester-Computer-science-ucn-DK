@@ -1,0 +1,25 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: linear-gradient( rgba(255, 255, 255, 0.7), /* Hvid farve med 70% opacitet */
+    rgba(255, 255, 255, 0.7) /* Du kan justere opaciteten efter behov */
+    ), url('/images/flyet.png') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color:black;
+}
