@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DTOs\**" />
+    <Compile Remove="ModelConversion\**" />
+    <Compile Remove="ModelLayer\**" />
+    <EmbeddedResource Remove="DTOs\**" />
+    <EmbeddedResource Remove="ModelConversion\**" />
+    <EmbeddedResource Remove="ModelLayer\**" />
+    <None Remove="DTOs\**" />
+    <None Remove="ModelConversion\**" />
+    <None Remove="ModelLayer\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="App.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Windows.Extensions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="GuiLayer\LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
