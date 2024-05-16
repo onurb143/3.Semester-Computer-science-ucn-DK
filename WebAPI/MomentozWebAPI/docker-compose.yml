@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  # ... din eksisterende sql server konfiguration ...
+
+  api:
+    build:
+      context: C:\Users\Bruno\Desktop\momentoz\WebAPI\MomentozWebAPI
+      dockerfile: Dockerfile
+    ports:
+      - "5114:80"  # Eller hvilken port du vil eksponere din API på
+    environment:
+      - ConnectionStrings__DefaultConnection"Server=localhost,1401; Database=momentoz; User Id=sa; Password=Password1!; Encrypt=False;";
+    depends_on:
+      - localhost,1401
+
+
+      

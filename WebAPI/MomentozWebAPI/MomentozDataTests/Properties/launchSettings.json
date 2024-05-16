@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MomentozDataTests": {
+      "commandName": "Project",
+      "commandLineArgs": "dotnet.exe"
+    }
+  }
+}
