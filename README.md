@@ -1,7 +1,6 @@
 3. Semester Projekt – Computer Science, UCN DK
-Dette projekt for 3. semester omfatter udviklingen af et distribueret system bestående af en API, en desktop-klient, en web-klient og en MS SQL-database. Systemet fokuserer på designmønstre og funktionaliteten til at oprette en ordre for køb af en billet til en tur i en 1-sædet motorsejler.
-
-Projektbeskrivelse:
+Dette projekt for 3. semester omfatter udviklingen af et distribueret system bestående af en API, en desktop-klient, en web-klient og en MS SQL-database.
+Systemet fokuserer på designmønstre og funktionaliteten til at oprette en ordre for køb af en billet til en tur i en 1-sædet svævefly.
 
 API: Central enhed til håndtering af dataudveksling og forretningslogik.
 Desktop-klient: Applikation til desktop, der kommunikerer med API'et for at tilbyde en brugervenlig interface.
